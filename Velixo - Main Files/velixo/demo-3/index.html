@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      if (localStorage.getItem("theme") === "dark")
+        document.documentElement.classList.add("dark-theme");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velixo - Creative Portfolio (Editorial)</title>
+    <meta
+      name="description"
+      content="Premium portfolio of Alex Sterling, an Elite Design Systems Architect using an editorial split-screen layout."
+    />
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/google-fonts.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="vx-demo-3">
+    
+    <!-- MASTER WRAPPER -->
+    <div class="vx-3-wrapper">
+      
+      <!-- LEFT SECTION: STICKY IDENTITY -->
+      <aside class="vx-3-identity">
+        <div class="identity-inner">
+          <div class="id-avatar wow animate__zoomIn">
+            <img src="../assets/img/avatar-1.jpg" alt="Alex Sterling" class="w-100 h-100 object-fit-cover" />
+          </div>
+          <h1 class="id-name wow animate__fadeInUp" data-wow-delay="0.2s">Alex<br/>Sterling</h1>
+          <span class="id-tag wow animate__fadeInUp" data-wow-delay="0.3s">Elite Design Systems Architect</span>
+          
+          <div class="social-pill justify-content-center wow animate__fadeInUp" data-wow-delay="0.4s">
+            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT SECTION: EDITORIAL FEED -->
+      <main class="vx-3-feed">
+        
+        <!-- SECTION 1: PHILOSOPHY -->
+        <section class="feed-section philosophy">
+          <span class="section-label wow animate__fadeInLeft">Elite Philosophy</span>
+          <h2 class="editorial-title wow animate__fadeInUp">Defining the future of digital architecture.</h2>
+          <p class="editorial-desc wow animate__fadeInUp" data-wow-delay="0.1s">
+            I believe that every system should be built with radical quality and strategic depth. My work focuses on creating scalable, secure, and performant infrastructures that drive global brand growth.
+          </p>
+        </section>
+
+        <!-- SECTION 2: MASTERY MARQUEE -->
+        <section class="feed-section mastery">
+          <div class="mastery-marquee">
+            <div class="marquee-content">
+              <span class="marquee-item">SYSTEMS ARCHITECTURE</span>
+              <span class="marquee-item">SECURE ENGINEERING</span>
+              <span class="marquee-item">STRATEGIC GROWTH</span>
+              <span class="marquee-item">NEURAL LOGIC</span>
+              <span class="marquee-item">CYBERSECURITY</span>
+              <span class="marquee-item">DATA MODELING</span>
+            </div>
+            <!-- Duplicate for infinite scroll -->
+            <div class="marquee-content" aria-hidden="true">
+              <span class="marquee-item">SYSTEMS ARCHITECTURE</span>
+              <span class="marquee-item">SECURE ENGINEERING</span>
+              <span class="marquee-item">STRATEGIC GROWTH</span>
+              <span class="marquee-item">NEURAL LOGIC</span>
+              <span class="marquee-item">CYBERSECURITY</span>
+              <span class="marquee-item">DATA MODELING</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 3: SERVICES -->
+        <section class="feed-section services">
+          <span class="section-label wow animate__fadeInLeft">Specializations</span>
+          <h2 class="editorial-title wow animate__fadeInUp">Modern solutions for complex digital challenges.</h2>
+          
+          <div class="services-list mt-5">
+            <div class="service-row wow animate__fadeInUp" data-wow-delay="0.1s">
+              <span class="service-num">01</span>
+              <div class="service-info">
+                <h3 class="art-title">Systems Architecture</h3>
+                <p class="small text-muted mb-0">Building robust digital infrastructures with modular precision.</p>
+              </div>
+            </div>
+            <div class="service-row wow animate__fadeInUp" data-wow-delay="0.2s">
+              <span class="service-num">02</span>
+              <div class="service-info">
+                <h3 class="art-title">Shielded Engineering</h3>
+                <p class="small text-muted mb-0">Implementing security-first protocols for high-stakes environments.</p>
+              </div>
+            </div>
+            <div class="service-row wow animate__fadeInUp" data-wow-delay="0.3s">
+              <span class="service-num">03</span>
+              <div class="service-info">
+                <h3 class="art-title">Strategic Analytics</h3>
+                <p class="small text-muted mb-0">Turning complex data datasets into actionable growth frameworks.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="mt-5 pt-5 border-top border-opacity-10">
+          <p class="small opacity-50 fw-bold">© 2026 VELIXO. PART OF CODEIN SOLUTIONS.</p>
+        </footer>
+
+      </main>
+
+    </div>
+
+    <!-- NAVIGATION DOCK (SHARED ACROSS DEMOS) -->
+    <aside class="sidebar-right-vx animate__animated animate__fadeInRight">
+      <nav class="sidebar-nav">
+        <a href="index.html" class="nav-item active">
+          <i class="fa-solid fa-house-user"></i>
+          <span>Home</span>
+        </a>
+        <a href="resume.html" class="nav-item">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span>Resume</span>
+        </a>
+        <a href="works.html" class="nav-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Projects</span>
+        </a>
+        <a href="blog.html" class="nav-item">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Feed</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="control-btn dark-toggle" id="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+    </aside>
+
+    <!-- JS LIBRARIES -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

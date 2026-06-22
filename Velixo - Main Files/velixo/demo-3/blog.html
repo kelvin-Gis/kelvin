@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      if (localStorage.getItem("theme") === "dark")
+        document.documentElement.classList.add("dark-theme");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed - Alex Sterling | Elite Design Systems Architect</title>
+    <meta
+      name="description"
+      content="Technical logs, neural insights, and architectural philosophy from Alex Sterling."
+    />
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/google-fonts.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="vx-demo-3">
+    
+    <!-- MASTER WRAPPER -->
+    <div class="vx-3-wrapper">
+      
+      <!-- LEFT SECTION: FIXED IDENTITY -->
+      <aside class="vx-3-identity">
+        <div class="identity-inner">
+          <div class="id-avatar wow animate__zoomIn">
+            <img src="../assets/img/avatar-1.jpg" alt="Alex Sterling" class="w-100 h-100 object-fit-cover" />
+          </div>
+          <h1 class="id-name wow animate__fadeInUp" data-wow-delay="0.2s">Alex<br/>Sterling</h1>
+          <span class="id-tag wow animate__fadeInUp" data-wow-delay="0.3s">Elite Design Systems Architect</span>
+          
+          <div class="social-pill justify-content-center wow animate__fadeInUp" data-wow-delay="0.4s">
+            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+          <div class="mt-5 pt-3 wow animate__fadeInUp" data-wow-delay="0.5s">
+            <div class="blog-stats-editorial py-4 border-top border-bottom border-opacity-10 mt-4 text-center">
+              <span class="d-block small opacity-50 fw-bold text-uppercase letter-spacing-2">Neural Logs</span>
+              <p class="h1 mb-0 fw-black">240</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT SECTION: EDITORIAL FEED -->
+      <main class="vx-3-feed">
+        
+        <!-- SECTION 1: BLOG INTRO -->
+        <section class="feed-section blog-narrative">
+          <span class="section-label wow animate__fadeInLeft">Technical Log</span>
+          <h2 class="editorial-title wow animate__fadeInUp">Decoding digital logic & neural design.</h2>
+          <p class="editorial-desc wow animate__fadeInUp" data-wow-delay="0.1s">
+            A chronological feed of technical breakthroughs, design philosophy, and the future of scalable engineering.
+          </p>
+        </section>
+
+        <!-- SECTION 2: BLOG LOG FEED -->
+        <section class="feed-section pt-0">
+          <div class="editorial-blog-log" id="blog-feed">
+            
+            <!-- Blog Item 1 -->
+            <article class="blog-log-item wow animate__fadeInUp">
+              <div class="blog-date-panel">
+                <span class="day text-primary">24</span>
+                <span class="month">Oct 26</span>
+              </div>
+              <div class="blog-log-content">
+                <span class="section-label mb-2 d-inline-block">Engineering</span>
+                <h3><a href="#" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#blogModal1">Future of Neural Design Systems</a></h3>
+                <p class="text-muted">In the rapidly evolving landscape of digital interfaces, the convergence of neural biological principles and computer-aided design is creating a new paradigm.</p>
+                <a href="#" class="blog-read-more" data-bs-toggle="modal" data-bs-target="#blogModal1">Read Full Log <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </article>
+
+            <!-- Blog Item 2 -->
+            <article class="blog-log-item wow animate__fadeInUp" data-wow-delay="0.1s">
+              <div class="blog-date-panel">
+                <span class="day text-primary">18</span>
+                <span class="month">Oct 26</span>
+              </div>
+              <div class="blog-log-content">
+                <span class="section-label mb-2 d-inline-block">Hardware</span>
+                <h3><a href="#" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#blogModal2">Quantum UI Hooks in Hardware</a></h3>
+                <p class="text-muted">Integrating high-level UI logic with bare-metal hardware requires more than just efficient code; it requires a deep understanding of signal latency.</p>
+                <a href="#" class="blog-read-more" data-bs-toggle="modal" data-bs-target="#blogModal2">Read Full Log <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </article>
+
+            <!-- Blog Item 3 -->
+            <article class="blog-log-item wow animate__fadeInUp" data-wow-delay="0.2s">
+              <div class="blog-date-panel">
+                <span class="day text-primary">15</span>
+                <span class="month">Oct 26</span>
+              </div>
+              <div class="blog-log-content">
+                <span class="section-label mb-2 d-inline-block">Logic</span>
+                <h3><a href="#" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#blogModal3">Visual Logic Flow Systems</a></h3>
+                <p class="text-muted">Visualizing complex logic flows is the next frontier in developer experience. Node-based architecture maps technical complexity to artistic visual patterns.</p>
+                <a href="#" class="blog-read-more" data-bs-toggle="modal" data-bs-target="#blogModal3">Read Full Log <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- HIDDEN POOL -->
+          <div class="blog-load-more-pool d-none">
+            <!-- Hidden Blog Item 4 -->
+            <article class="blog-log-item">
+              <div class="blog-date-panel">
+                <span class="day text-primary">10</span>
+                <span class="month">Oct 26</span>
+              </div>
+              <div class="blog-log-content">
+                <span class="section-label mb-2 d-inline-block">Security</span>
+                <h3><a href="#" class="text-reset text-decoration-none">Cyber Resilience Protocols</a></h3>
+                <p class="text-muted">In an age of increasing digital threats, cyber resilience is no longer optional. Layered defense strategy protects sensitive data.</p>
+                <a href="#" class="blog-read-more">Read Full Log <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </article>
+            <!-- Hidden Blog Item 5 -->
+            <article class="blog-log-item">
+              <div class="blog-date-panel">
+                <span class="day text-primary">05</span>
+                <span class="month">Oct 26</span>
+              </div>
+              <div class="blog-log-content">
+                <span class="section-label mb-2 d-inline-block">Data</span>
+                <h3><a href="#" class="text-reset text-decoration-none">The Power of Visual Data</a></h3>
+                <p class="text-muted">Data visualization is the bridge between raw information and actionable insights via advanced 3D rendering techniques.</p>
+                <a href="#" class="blog-read-more">Read Full Log <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- LOAD MORE BUTTON -->
+          <div class="text-center mt-5 wow animate__fadeInUp">
+            <button class="btn btn-outline-primary rounded-pill px-5 py-3 fw-bold text-uppercase border-2" id="load-more-trigger">
+              <span>Sync Neural Logs</span> <i class="fa-solid fa-rotate ms-2"></i>
+            </button>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="mt-5 pt-5 border-top border-opacity-10">
+          <p class="small opacity-50 fw-bold">© 2026 VELIXO. PART OF CODEIN SOLUTIONS.</p>
+        </footer>
+
+      </main>
+
+    </div>
+
+    <!-- NAVIGATION DOCK -->
+    <aside class="sidebar-right-vx animate__animated animate__fadeInRight">
+      <nav class="sidebar-nav">
+        <a href="index.html" class="nav-item">
+          <i class="fa-solid fa-house-user"></i>
+          <span>Home</span>
+        </a>
+        <a href="resume.html" class="nav-item">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span>Resume</span>
+        </a>
+        <a href="works.html" class="nav-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Projects</span>
+        </a>
+        <a href="blog.html" class="nav-item active">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Feed</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="control-btn dark-toggle" id="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+    </aside>
+
+    <!-- BLOG MODALS -->
+    <!-- Modal 1 -->
+    <div class="modal fade velixo-modal" id="blogModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <span class="badge-status m-0">Engineering</span>
+                        <span class="small opacity-50 fw-bold">OCT 24, 2026</span>
+                    </div>
+                    <h2 class="modal-title mb-4">The Future of Neural Design Systems</h2>
+                    <img src="../assets/img/blog-1.jpg" class="img-fluid rounded-4 mb-5" alt="Neural Design Systems Detail">
+                    <div class="blog-content">
+                        <p>In the rapidly evolving landscape of digital interfaces, the convergence of neural biological principles and computer-aided design is creating a new paradigm. We call this <strong>Neural Design Architecture</strong>.</p>
+                        <p>Unlike traditional static design systems, neural systems are designed to be "alive" — adapting in real-time to user behavior, cognitive load, and environmental factors. This requires a complete rethink of how we handle component logic and state management.</p>
+                        <blockquote class="my-5 p-4 border-start border-4 border-primary bg-light rounded-2">
+                            "The goal is not to build tools that work for users, but to build ecosystems that evolve with them."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade velixo-modal" id="blogModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <span class="badge-status m-0">Hardware</span>
+                        <span class="small opacity-50 fw-bold">OCT 18, 2026</span>
+                    </div>
+                    <h2 class="modal-title mb-4">Quantum UI Hooks in Hardware</h2>
+                    <img src="../assets/img/blog-2.jpg" class="img-fluid rounded-4 mb-5" alt="Quantum UI Hooks Detail">
+                    <div class="blog-content">
+                        <p>Integrating high-level UI logic with bare-metal hardware requires more than just efficient code; it requires a deep understanding of signal latency and tactile feedback loops.</p>
+                        <p>Our latest breakthrough in "Quantum Hooks" allows for a zero-latency bridge between React-based interfaces and embedded sensor arrays, enabling a level of physical-digital synchronicity previously thought impossible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade velixo-modal" id="blogModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <span class="badge-status m-0">Logic</span>
+                        <span class="small opacity-50 fw-bold">OCT 15, 2026</span>
+                    </div>
+                    <h2 class="modal-title mb-4">Visual Logic Flow Systems</h2>
+                    <img src="../assets/img/blog-3.jpg" class="img-fluid rounded-4 mb-5" alt="Visual Logic Flow Detail">
+                    <div class="blog-content">
+                        <p>Visualizing complex logic flows is the next frontier in developer experience. At Velixo, we've developed a node-based architecture that maps technical complexity to artistic visual patterns.</p>
+                        <p>This allows architects to "see" bottlenecks before they are even coded. By treating data flow as a visual river, we can optimize systems using intuitive pattern recognition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS LIBRARIES -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

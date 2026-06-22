@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      if (localStorage.getItem("theme") === "dark")
+        document.documentElement.classList.add("dark-theme");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Alex Sterling | Elite Design Systems Architect</title>
+    <meta
+      name="description"
+      content="Initiate a collaboration or system architectural inquiry with Alex Sterling."
+    />
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/google-fonts.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="vx-demo-3">
+    
+    <!-- MASTER WRAPPER -->
+    <div class="vx-3-wrapper">
+      
+      <!-- LEFT SECTION: STICKY IDENTITY -->
+      <aside class="vx-3-identity">
+        <div class="identity-inner">
+          <div class="id-avatar wow animate__zoomIn">
+            <img src="../assets/img/avatar-1.jpg" alt="Alex Sterling" class="w-100 h-100 object-fit-cover" />
+          </div>
+          <h1 class="id-name wow animate__fadeInUp" data-wow-delay="0.2s">Alex<br/>Sterling</h1>
+          <span class="id-tag wow animate__fadeInUp" data-wow-delay="0.3s">Elite Design Systems Architect</span>
+          
+          <div class="social-pill justify-content-center wow animate__fadeInUp" data-wow-delay="0.4s">
+            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+          <div class="mt-5 pt-3 wow animate__fadeInUp" data-wow-delay="0.5s text-center">
+            <div class="py-4 border-top border-bottom border-opacity-10 mt-4">
+              <span class="d-block small opacity-50 fw-bold text-uppercase letter-spacing-2">Availability</span>
+              <p class="mb-0 fw-bold mt-2 text-success"><i class="fa-solid fa-circle small me-2"></i> Accepting New Inquiries</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT SECTION: EDITORIAL FEED -->
+      <main class="vx-3-feed">
+        
+        <!-- SECTION 1: CONTACT INTRO -->
+        <section class="feed-section contact-narrative">
+          <span class="section-label wow animate__fadeInLeft">Collaborate</span>
+          <h2 class="editorial-title wow animate__fadeInUp">Let's architect the future of your ecosystem.</h2>
+          <p class="editorial-desc wow animate__fadeInUp" data-wow-delay="0.1s">
+            I'm always looking for ambitious projects that require a unique blend of technical rigor and design excellence.
+          </p>
+        </section>
+
+        <!-- SECTION 2: EDITORIAL FORM -->
+        <section class="feed-section pt-0">
+          <form class="contact-form-editorial row g-4 wow animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-6">
+              <label class="small opacity-50 fw-bold text-uppercase letter-spacing-1">Full Name</label>
+              <input type="text" class="form-control" placeholder="Alex Sterling" required />
+            </div>
+            <div class="col-md-6">
+              <label class="small opacity-50 fw-bold text-uppercase letter-spacing-1">Email Address</label>
+              <input type="email" class="form-control" placeholder="alex@sterling.design" required />
+            </div>
+            <div class="col-12">
+              <label class="small opacity-50 fw-bold text-uppercase letter-spacing-1">Subject</label>
+              <input type="text" class="form-control" placeholder="Project Inquiry / Consultation" required />
+            </div>
+            <div class="col-12">
+              <label class="small opacity-50 fw-bold text-uppercase letter-spacing-1">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Briefly describe your requirements..." required></textarea>
+            </div>
+            <div class="col-12 mt-5">
+              <button type="submit" class="btn btn-primary rounded-pill px-5 py-3 fw-bold text-uppercase shadow-blue">
+                Initialize Connection <i class="fa-solid fa-paper-plane ms-2"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- TECHNICAL INFO GRID -->
+          <div class="contact-info-grid wow animate__fadeInUp" data-wow-delay="0.3s">
+            <div class="info-block">
+              <h5>Direct Terminal</h5>
+              <p>hello@sterling.design</p>
+              <p>+1 (555) 902-1800</p>
+            </div>
+            <div class="info-block">
+              <h5>Architectural Studio</h5>
+              <p>42 Neural Way</p>
+              <p>San Francisco, CA 94103</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="mt-5 pt-5 border-top border-opacity-10">
+          <p class="small opacity-50 fw-bold">© 2026 VELIXO. PART OF CODEIN SOLUTIONS.</p>
+        </footer>
+
+      </main>
+
+    </div>
+
+    <!-- NAVIGATION DOCK -->
+    <aside class="sidebar-right-vx animate__animated animate__fadeInRight">
+      <nav class="sidebar-nav">
+        <a href="index.html" class="nav-item">
+          <i class="fa-solid fa-house-user"></i>
+          <span>Home</span>
+        </a>
+        <a href="resume.html" class="nav-item">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span>Resume</span>
+        </a>
+        <a href="works.html" class="nav-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Projects</span>
+        </a>
+        <a href="blog.html" class="nav-item">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Feed</span>
+        </a>
+        <a href="contact.html" class="nav-item active">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="control-btn dark-toggle" id="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+    </aside>
+
+    <!-- JS LIBRARIES -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

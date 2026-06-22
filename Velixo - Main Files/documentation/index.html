@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velixo Documentation - Premium Portfolio Ecosystem</title>
+    <link rel="icon" href="../velixo/assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../velixo/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../velixo/assets/css/animate.min.css">
+</head>
+<body data-theme="light">
+
+    <!-- HEADER -->
+    <header class="doc-header">
+        <div class="doc-logo">Velixo<span>.</span> Documentation</div>
+        <div class="header-right">
+            <a href="../velixo/index.html" class="theme-toggle theme-toggle-home text-decoration-none" title="Back to Portal">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <button class="theme-toggle" id="theme-toggle" title="Switch Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="doc-wrapper">
+        <!-- SIDEBAR -->
+        <aside class="doc-sidebar">
+            <span class="nav-section-label">Getting Started</span>
+            <ul class="sidebar-nav">
+                <li><a href="#introduction" class="active"><i class="fa-solid fa-flag"></i> Introduction</a></li>
+                <li><a href="#architecture"><i class="fa-solid fa-sitemap"></i> Project Structure</a></li>
+                <li><a href="#installation"><i class="fa-solid fa-download"></i> Installation</a></li>
+            </ul>
+
+            <span class="nav-section-label">Customization</span>
+            <ul class="sidebar-nav">
+                <li><a href="#theming"><i class="fa-solid fa-palette"></i> Theming & Colors</a></li>
+                <li><a href="#content"><i class="fa-solid fa-pen-nib"></i> Updating Content</a></li>
+                <li><a href="#darkmode"><i class="fa-solid fa-moon"></i> Dark Mode Logic</a></li>
+            </ul>
+
+            <span class="nav-section-label">Other</span>
+            <ul class="sidebar-nav">
+                <li><a href="#support"><i class="fa-solid fa-headset"></i> Support & Policy</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="doc-content">
+            
+            <!-- INTRODUCTION -->
+            <section id="introduction" class="animate__animated animate__fadeIn">
+                <h1 class="display-4">Welcome to Velixo.</h1>
+                <p class="lead">Congratulations on choosing Velixo — a professional, high-fidelity portfolio ecosystem designed for elite architects, engineers, and technical creatives.</p>
+                
+                <div class="alert alert-info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <div>
+                        <strong>Pro Tip:</strong> This template used shared assets for better performance. All three demos are pre-configured to work out-of-the-box.
+                    </div>
+                </div>
+
+                <p>This documentation will guide you through the setup, customization, and deployment of your new professional identity. Whether you are building an elite bento-style resume or an editorial narrative portfolio, this guide covers the technical essentials.</p>
+            </section>
+
+            <!-- ARCHITECTURE -->
+            <section id="architecture">
+                <h2>Project Structure</h2>
+                <p>Velixo relies on a modular architecture where the core logic is shared across all three demos to minimize redundancy and maximize speed.</p>
+                
+                <div class="file-tree">
+                    📁 Velixo/ (Root)<br>
+                    &nbsp;├── 📁 assets/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Global styles, JS, and Media</span><br>
+                    &nbsp;│&nbsp;&nbsp;&nbsp;├── 📁 css/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># main.css, plugins, bootstrap</span><br>
+                    &nbsp;│&nbsp;&nbsp;&nbsp;├── 📁 fonts/ &nbsp;&nbsp;&nbsp;<span># FontAwesome & Webfonts</span><br>
+                    &nbsp;│&nbsp;&nbsp;&nbsp;├── 📁 img/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Optimized WebP assets</span><br>
+                    &nbsp;│&nbsp;&nbsp;&nbsp;└── 📁 js/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Core logic & logic hooks</span><br>
+                    &nbsp;├── 📁 demo-1/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Elite Professional (Bento)</span><br>
+                    &nbsp;├── 📁 demo-2/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Modular Studio (Agency)</span><br>
+                    &nbsp;├── 📁 demo-3/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span># Narrative Split (Creative)</span><br>
+                    &nbsp;├── 📁 documentation/ <span># Current help files</span><br>
+                    &nbsp;└── 📄 index.html &nbsp;&nbsp;&nbsp;&nbsp;<span># Master Hub / Landing Page</span>
+                </div>
+            </section>
+
+            <!-- INSTALLATION -->
+            <section id="installation">
+                <h2>Installation Guide</h2>
+                <p>Since Velixo is a static HTML template, no complex backend setup or database is required. You can go live in minutes.</p>
+                
+                <h3>Local Development</h3>
+                <p>To view the project locally, simply extract the ZIP file and open any <code>index.html</code> file in a modern browser (Chrome, Safari, Firefox).</p>
+                
+                <h3>Live Deployment</h3>
+                <p>To deploy Velixo, upload the entire contents of the root folder (including assets) to your server via FTP or a CI/CD pipeline (like Netlify or Vercel).</p>
+            </section>
+
+            <!-- THEMING -->
+            <section id="theming">
+                <h2>Theming & Style Customization</h2>
+                <p>Velixo is built using modern CSS Variables, allowing you to change the entire brand identity with a single line of code.</p>
+                
+                <h3>Primary Global Variables</h3>
+                <p>Open <code>assets/css/main.css</code> and locate the <code>:root { /* Variable Settings & Theme Handling */</code> section to modify core brand tokens.</p>
+                
+                <div class="code-block">
+                    <pre>
+:root {
+  /* Brand Identity */
+  --velixo-primary: #1b74e4;      /* High-Impact Blue */
+  --velixo-secondary: #fa5252;    /* Highlight Red */
+  
+  /* Layout Spacing */
+  --radius-3xl: 48px;             /* Curved Corner Radius */
+  --radius-xl: 32px;              /* Standard Card Radius */
+}
+                    </pre>
+                </div>
+            </section>
+
+            <!-- UPDATING CONTENT -->
+            <section id="content">
+                <h2>Updating Content</h2>
+                <p>To update text, icons, and links, simply edit the HTML files in the respective demo folder (e.g., <code>demo-1/index.html</code>).</p>
+                <ul>
+                    <li><strong>Icons:</strong> Uses FontAwesome 7.2. Search icons on <a href="https://fontawesome.com/search" target="_blank">FontAwesome</a>.</li>
+                    <li><strong>Images:</strong> Replace files in <code>assets/img/</code> or update the <code>src</code> attribute in HTML.</li>
+                    <li><strong>Animations:</strong> Adjust WOW.js <code>data-wow-delay</code> and <code>animate.css</code> classes.</li>
+                </ul>
+            </section>
+
+            <!-- DARK MODE -->
+            <section id="darkmode">
+                <h2>Dark Mode Mechanism</h2>
+                <p>Velixo uses a class-based strategy to toggle themes. The state is permanently stored in <code>localStorage</code> to remember user preference across sessions.</p>
+                
+                <div class="code-block">
+                    <pre>
+/* Manual Control */
+// Add 'dark-theme' class to &lt;html&gt; for dark mode
+&lt;html class="dark-theme"&gt;
+
+// Remove class for light mode (Default)
+&lt;html&gt;
+                    </pre>
+                </div>
+            </section>
+
+            <!-- SUPPORT -->
+            <section id="support" style="padding-bottom: 200px;">
+                <h2>Support & Lifetime Updates</h2>
+                <p>We believe in high-fidelity support. If you encounter any technical difficulty or layout displacement, please reach out via our official channels.</p>
+                
+                <div class="support-grid">
+                    <a href="mailto:codeinsolutions01@gmail.com" class="support-card">
+                        <div class="s-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="s-info">
+                            <h5>Direct Support</h5>
+                            <span>codeinsolutions01@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://themeforest.net/user/codeinsolutions" target="_blank" class="support-card">
+                        <div class="s-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="s-info">
+                            <h5>ThemeForest</h5>
+                            <span>Marketplace Profile</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- PURE VANILLA JS FOR ABSOLUTE RELIABILITY -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggle = document.getElementById('theme-toggle');
+            const icon = toggle.querySelector('i');
+            const html = document.documentElement;
+
+            // Load saved theme
+            if (localStorage.getItem('doc-theme') === 'dark') {
+                html.setAttribute('data-theme', 'dark');
+                icon.className = 'fa-solid fa-sun';
+            }
+
+            // Toggle logic
+            toggle.addEventListener('click', () => {
+                const isDark = html.getAttribute('data-theme') === 'dark';
+                const nextTheme = isDark ? 'light' : 'dark';
+                
+                html.setAttribute('data-theme', nextTheme);
+                localStorage.setItem('doc-theme', nextTheme);
+                
+                icon.className = isDark ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+            });
+
+            // Intersection Observer for active state
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -70% 0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        document.querySelectorAll('.sidebar-nav a').forEach(a => {
+                            a.classList.toggle('active', a.getAttribute('href') === `#${id}`);
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section').forEach(section => observer.observe(section));
+        });
+    </script>
+</body>
+</html>

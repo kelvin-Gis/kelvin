@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      if (localStorage.getItem("theme") === "dark")
+        document.documentElement.classList.add("dark-theme");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Works - Alex Sterling | Elite Design Systems Architect</title>
+    <meta
+      name="description"
+      content="A narrative display of technical masterpieces and digital ecosystems by Alex Sterling."
+    />
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/google-fonts.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="vx-demo-3">
+    
+    <!-- MASTER WRAPPER -->
+    <div class="vx-3-wrapper">
+      
+      <!-- LEFT SECTION: STICKY IDENTITY -->
+      <aside class="vx-3-identity">
+        <div class="identity-inner">
+          <div class="id-avatar wow animate__zoomIn">
+            <img src="../assets/img/avatar-1.jpg" alt="Alex Sterling" class="w-100 h-100 object-fit-cover" />
+          </div>
+          <h1 class="id-name wow animate__fadeInUp" data-wow-delay="0.2s">Alex<br/>Sterling</h1>
+          <span class="id-tag wow animate__fadeInUp" data-wow-delay="0.3s">Elite Design Systems Architect</span>
+          
+          <div class="social-pill justify-content-center wow animate__fadeInUp" data-wow-delay="0.4s">
+            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+          <div class="mt-5 pt-3 wow animate__fadeInUp" data-wow-delay="0.5s">
+            <div class="id-meta-editorial text-center py-4 border-top border-bottom border-opacity-10 mt-4">
+              <span class="d-block small opacity-50 fw-bold text-uppercase letter-spacing-2">Current Focus</span>
+              <p class="mb-0 fw-bold mt-2">Scalable Neural Nodes</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT SECTION: EDITORIAL FEED -->
+      <main class="vx-3-feed">
+        
+        <!-- SECTION 1: WORKS INTRO -->
+        <section class="feed-section works-narrative">
+          <span class="section-label wow animate__fadeInLeft">Curated Artifacts</span>
+          <h2 class="editorial-title wow animate__fadeInUp">Building the infrastructure of tomorrow.</h2>
+          <div class="editorial-filter mt-5 wow animate__fadeInUp" data-wow-delay="0.2s">
+            <button class="filter-btn active" data-filter="*">All Artifacts</button>
+            <button class="filter-btn" data-filter=".ui-ux">Systems Design</button>
+            <button class="filter-btn" data-filter=".architecture">Structural Core</button>
+            <button class="filter-btn" data-filter=".systems">Neural Logic</button>
+          </div>
+        </section>
+
+        <!-- SECTION 2: WORKS FEED (ISOTOPE) -->
+        <section class="feed-section pt-0">
+          <div class="editorial-works-scroll isotope-grid">
+            <div class="grid-sizer-3"></div>
+
+            <!-- Work Item 1 -->
+            <div class="works-feed-item isotope-item ui-ux wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                <img src="../assets/img/project-1.webp" alt="Neural Dashboard" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Systems Design</span>
+                <span class="work-year">2025</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal1">Neural Dashboard Architecture</h3>
+              <p class="editorial-post-desc">A high-density telemetry system designed for real-time neural monitoring and behavioral shifts.</p>
+            </div>
+
+            <!-- Work Item 2 -->
+            <div class="works-feed-item isotope-item architecture wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                <img src="../assets/img/project-2.webp" alt="Quantum Logic" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Structural Core</span>
+                <span class="work-year">2024</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal2">Quantum Logic Infrastructure</h3>
+              <p class="editorial-post-desc">Optimizing high-frequency data streams through quantum-layered synchronization protocols.</p>
+            </div>
+
+            <!-- Work Item 3 -->
+            <div class="works-feed-item isotope-item systems wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                <img src="../assets/img/project-3.webp" alt="Scalable Core" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Neural Logic</span>
+                <span class="work-year">2025</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal3">Scalable Core Infrastructure</h3>
+              <p class="editorial-post-desc">A distributed cloud backbone designed for global resilience and self-healing node networks.</p>
+            </div>
+
+            <!-- Work Item 4 -->
+            <div class="works-feed-item isotope-item ui-ux wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal4">
+                <img src="../assets/img/project-4.webp" alt="Elite Mobile" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Systems Design</span>
+                <span class="work-year">2026</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal4">Elite Mobile Ecosystem</h3>
+              <p class="editorial-post-desc">A premium lifestyle management interface using custom physics-based animations and minimalist bento logic.</p>
+            </div>
+
+            <!-- Work Item 5 -->
+            <div class="works-feed-item isotope-item architecture wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal5">
+                <img src="../assets/img/project-5.webp" alt="Cyber Protocol" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Structural Core</span>
+                <span class="work-year">2026</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal5">Shielded Cyber Protocol</h3>
+              <p class="editorial-post-desc">A self-healing security mesh developed for distributed neural processing nodes.</p>
+            </div>
+
+            <!-- Work Item 6 -->
+            <div class="works-feed-item isotope-item ui-ux wow animate__fadeInUp">
+              <div class="work-img-wrapper" role="button" data-bs-toggle="modal" data-bs-target="#projectModal6">
+                <img src="../assets/img/project-6.webp" alt="Visual Analytics" class="img-fluid" />
+              </div>
+              <div class="work-meta-editorial">
+                <span class="work-tag">Systems Design</span>
+                <span class="work-year">2025</span>
+              </div>
+              <h3 class="editorial-post-title" role="button" data-bs-toggle="modal" data-bs-target="#projectModal6">Visual Analytics Engine</h3>
+              <p class="editorial-post-desc">Transforming raw technical datasets into interactive 3D landscapes for C-suite architectural clarity.</p>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="mt-5 pt-5 border-top border-opacity-10">
+          <p class="small opacity-50 fw-bold">© 2026 VELIXO. PART OF CODEIN SOLUTIONS.</p>
+        </footer>
+
+      </main>
+
+    </div>
+
+    <!-- NAVIGATION DOCK -->
+    <aside class="sidebar-right-vx animate__animated animate__fadeInRight">
+      <nav class="sidebar-nav">
+        <a href="index.html" class="nav-item">
+          <i class="fa-solid fa-house-user"></i>
+          <span>Home</span>
+        </a>
+        <a href="resume.html" class="nav-item">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span>Resume</span>
+        </a>
+        <a href="works.html" class="nav-item active">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Projects</span>
+        </a>
+        <a href="blog.html" class="nav-item">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Feed</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="control-btn dark-toggle" id="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+    </aside>
+
+    <!-- PROJECT MODALS -->
+    <!-- Modal 1 -->
+    <div class="modal fade velixo-modal" id="projectModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Systems Design</span>
+                    <h2 class="modal-title mb-4">Neural Dashboard Architecture</h2>
+                    <img src="../assets/img/project-1.webp" class="img-fluid rounded-4 mb-4" alt="Neural Dashboard Detail" />
+                    <p class="text-muted">A high-density data visualization system designed for real-time neural interface monitoring. The architecture focuses on extreme performance and minimal cognitive load.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade velixo-modal" id="projectModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Structural Core</span>
+                    <h2 class="modal-title mb-4">Quantum Logic Infrastructure</h2>
+                    <img src="../assets/img/project-2.webp" class="img-fluid rounded-4 mb-4" alt="Quantum Logic Detail" />
+                    <p class="text-muted">An advanced algorithmic optimization platform developed for high-frequency trading. The system utilizes quantum-inspired logic gates to process millions of transactions per second.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade velixo-modal" id="projectModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Neural Logic</span>
+                    <h2 class="modal-title mb-4">Scalable Core Infrastructure</h2>
+                    <img src="../assets/img/project-3.webp" class="img-fluid rounded-4 mb-4" alt="Scalable Core Detail" />
+                    <p class="text-muted">A distributed cloud infrastructure backbone designed for global resilience. This project focused on creating a self-healing node network that automatically redistributes load.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal fade velixo-modal" id="projectModal4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Systems Design</span>
+                    <h2 class="modal-title mb-4">Elite Mobile Ecosystem</h2>
+                    <img src="../assets/img/project-4.webp" class="img-fluid rounded-4 mb-4" alt="Elite Mobile Detail" />
+                    <p class="text-muted">A premium lifestyle management application for high-net-worth individuals. The interface uses custom physics-based animations and a minimalist editorial layout.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="modal fade velixo-modal" id="projectModal5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Structural Core</span>
+                    <h2 class="modal-title mb-4">Shielded Cyber Protocol</h2>
+                    <img src="../assets/img/project-5.webp" class="img-fluid rounded-4 mb-4" alt="Cyber Protocol Detail" />
+                    <p class="text-muted">A comprehensive cybersecurity audit and hardening protocol for governmental data centers. This project involved direct-memory monitoring and AI defense agents.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 -->
+    <div class="modal fade velixo-modal" id="projectModal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body p-4 p-md-5 pt-0">
+                    <span class="badge-status mb-3">Systems Design</span>
+                    <h2 class="modal-title mb-4">Visual Analytics Engine</h2>
+                    <img src="../assets/img/project-6.webp" class="img-fluid rounded-4 mb-4" alt="Visual Analytics Detail" />
+                    <p class="text-muted">A next-generation business intelligence dashboard that turns raw data into interactive 3D visualizations. Designed for C-suite architectural clarity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS LIBRARIES -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+      $(function() {
+        var $grid = $('.isotope-grid').isotope({
+          itemSelector: '.isotope-item',
+          percentPosition: true,
+          masonry: { columnWidth: '.grid-sizer-3' }
+        });
+        $('.filter-btn').on('click', function() {
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+          $('.filter-btn').removeClass('active');
+          $(this).addClass('active');
+        });
+      });
+    </script>
+  </body>
+</html>
